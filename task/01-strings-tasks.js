@@ -22,8 +22,7 @@
  *   '',  'bb'  => 'bb'
  */
 function concatenateStrings(value1, value2) {
-let value3="";
- return (value3.concat(value1, value2));
+ return (value1+value2);
 }
 
 
@@ -39,7 +38,7 @@ let value3="";
  *   ''      => 0
  */
 function getStringLength(value) {
-    throw new Error('Not implemented');
+    return(value.length);
 }
 
 /**
@@ -56,7 +55,7 @@ function getStringLength(value) {
  *   'Chuck','Norris'  => 'Hello, Chuck Norris!'
  */
 function getStringFromTemplate(firstName, lastName) {
-    throw new Error('Not implemented');
+    
 }
 
 /**
